@@ -15,7 +15,7 @@ public class EmailGeneratorController {
     private final EmailGeneratorService emailGeneratorService;
 
     @Autowired
-    public EmailGenerathatorController(EmailGeneratorService emailGeneratorService) {
+    public EmailGeneratorController(EmailGeneratorService emailGeneratorService) {
         this.emailGeneratorService = emailGeneratorService;
     }
 
